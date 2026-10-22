@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<head>
+    <title>Semana de Tecnologia e Cultura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; 
+            margin: 0;
+            padding: 0;
+            color: rgb(50, 50, 50);
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: rgb(218, 167, 211);
+            color: #ffffff;
+            padding: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 36px;
+            letter-spacing: 2px;
+            margin: 0 0 10px 0;
+        }
+
+        nav {
+            background-color: #5fbdce;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #1abc9c;
+        }
+
+        .secao {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #8de6d7;
+        }
+
+        .secao h2 {
+            font-size: 24px;
+            color: #5198df;
+        }
+
+        #sobre p {
+            text-align: justify;
+        }
+
+        #sobre img {
+            width: 400px;
+            height: 250px;
+            border: 3px solid #1abc9c;
+            margin-top: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #7f8c8d;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .card-atividade {
+            width: 300px;
+            height: 180px;
+            padding: 20px;
+            margin: 15px;
+        }
+
+        .card-atividade h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .caixa-azul {
+            background-color: #e0f7fa;
+            border: 3px solid #006064;
+            color:#4892ce;
+        }
+
+        .caixa-verde {
+            background-color: #e8f5e9;
+            border: 3px solid #2e7d32;
+            border-radius: 15px;
+            color:#1db970;
+        }
+
+        .caixa-vermelha {
+            background-color: #ffebee;
+            border: 5px solid #6a1b9a;
+            border-radius: 30px;
+            border-top-left-radius: 0px;
+            color:#7756c2;
+        }
+
+        footer {
+            background-color: #5fbdce;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Semana de Tecnologia e Cultura</h1>
+        <p>Experiência única, explorando ciência e arte.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#inscricoes">Inscrições</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre" class="secao">
+        <h2>Sobre o Evento</h2>
+        <p>A Semana de Tecnologia e Cultura do IFCE Campus Maranguape é um evento anual que reúne estudantes, professores e profissionais do mercado para debater as principais tendências tecnológicas e manifestações culturais regionais. Nosso objetivo é promover a integração da comunidade acadêmica por meio do conhecimento.</p>
+        <p>Durante o evento, os participantes terão acesso a uma rica gama de aprendizados práticos e teóricos, estimulando a criatividade, a pesquisa científica e o desenvolvimento sociocultural da nossa região.</p>
+        <img src="imagens/ifce.jpg">
+    </section>
+
+    <section id="programacao" class="secao">
+        <h2>Programação Geral</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Atividade</th>
+                    <th>Local</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>08:30 - 10:00</td>
+                    <td>Palestra de Abertura</td>
+                    <td>Auditório</td>
+                </tr>
+                <tr>
+                    <td>10:30 - 12:00</td>
+                    <td>Mesa Redonda: Pink Money</td>
+                    <td>Biblioteca</td>
+                </tr>
+                <tr>
+                    <td>13:30 - 15:00</td>
+                    <td>Oficina de Desenvolvimento Web</td>
+                    <td>Laboratório de Informática 3</td>
+                </tr>
+                <tr>
+                    <td>15:30 - 17:00</td>
+                    <td>Apresentações Culturais e Música</td>
+                    <td>Auditório</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="atividades" class="secao">
+        <h2>Atividades em Destaque</h2>
+
+        <div class="card-atividade caixa-azul">
+            <h3>Oficina de Robótica</h3>
+            <p>Aprenda os conceitos básicos de automação utilizando hardware livre de forma prática.</p>
+            <a href="#">Saber mais</a>
+        </div>
+
+        <div class="card-atividade caixa-verde">
+            <h3>Maratona de Programação</h3>
+            <p>Maratona de programação voltada para a resolução de problemas reais do campus.</p>
+            <a href="#">Saber mais</a>
+        </div>
+
+        <div class="card-atividade caixa-vermelha">
+            <h3>Mostra de Cinema</h3>
+            <p>Exibição e debate de curtas-metragens produzidos pelos próprios estudantes do IFCE.</p>
+            <a href="#">Saber mais</a>
+        </div>
+    </section>
+
+    <section id="inscricoes" class="secao">
+        <h2>Inscrições</h2>
+        <p>As inscrições são gratuitas e dão direito a certificado de participação. Garanta sua vaga acessando o portal oficial da instituição.</p>
+        <p><a href="https://ifce.edu.br" target="_blank">Clique aqui para acessar o site do IFCE</a></p>
+    </section>
+
+    <footer>
+        <p>Instituto Federal do Ceará (IFCE) - Campus Maranguape</p>
+        <p>Desenvolvido por: Bianca Castro do Nascimento</p>
+    </footer>
+
+</body>
+</html>
